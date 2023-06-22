@@ -1,10 +1,11 @@
 # Google Cloud Platform Product List
 
-![Update GCP Products](https://github.com/REllwood/gcp-product-list/workflows/daily-scraping/badge.svg)
+![Daily Scraping Status](https://github.com/REllwood/gcp-product-list/actions/workflows/daily-scraping.yml/badge.svg)
+
 
 This repository fetches all current GCP products and services from the [GCP Products and Services page](https://cloud.google.com/products/) and stores them in a JSON file daily. A Github Action is used to run the script daily and refresh the data daily.
 
-# Data Format
+# Data Format   
 
 All data is stored in the GCP_Products.json file. The format is as follows:
 ```json
