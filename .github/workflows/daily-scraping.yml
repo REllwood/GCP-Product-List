@@ -31,8 +31,7 @@ jobs:
       - name: Commit and push changes
         if: steps.git-check.outputs.changes
         run: |
-          git config --global user.name "Your Name"
-          git config --global user.email "your-email@example.com"
+          git config --global user.name "Rhys Bot"
           git add GCP_Products.json
           git commit -m "Updated GCP Products List"
           git push
