@@ -3,7 +3,7 @@
 ![Daily Scraping Status](https://github.com/REllwood/gcp-product-list/actions/workflows/daily-scraping.yml/badge.svg)
 
 
-This repository fetches all current GCP products and services from the [GCP Products and Services page](https://cloud.google.com/products/) and stores them in a JSON file daily. A Github Action is used to run the script daily and refresh the data daily.
+This repository fetches all current GCP products and services from the [GCP Products and Services page](https://cloud.google.com/products/) and stores them in a JSON file daily. A Github Action is used to run the script daily, if there has been an update the JSON file is updated and a commit is made to the repository.
 
 # Data Format   
 
