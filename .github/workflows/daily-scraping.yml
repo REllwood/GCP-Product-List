@@ -1,0 +1,38 @@
+name: Daily Scraping
+
+on:
+  schedule:
+    - cron: '0 0 * * *'
+
+jobs:
+  run_script:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.x
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run scraper
+        run: python gcpProduct.py
+
+      - name: Check for changes
+        id: git-check
+        run: |
+          git diff --quiet || echo "::set-output name=changes::true"
+
+      - name: Commit and push changes
+        if: steps.git-check.outputs.changes
+        run: |
+          git config --global user.name "Your Name"
+          git config --global user.email "your-email@example.com"
+          git add GCP_Products.json
+          git commit -m "Updated GCP Products List"
+          git push
