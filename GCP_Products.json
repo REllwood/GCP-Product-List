@@ -576,6 +576,10 @@
             {
                 "ProductName": "Terraform on Google Cloud",
                 "Description": "Open source tool to provision Google Cloud resources with declarative configuration files."
+            },
+            {
+                "ProductName": "Personalized Service Health",
+                "Description": "Gain visibility into disruptive service events impacting Google Cloud products."
             }
         ]
     },
