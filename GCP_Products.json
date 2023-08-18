@@ -515,10 +515,6 @@
             {
                 "ProductName": "Edge TPU",
                 "Description": "ASIC designed to run ML inference and AI at the edge."
-            },
-            {
-                "ProductName": "IoT Core",
-                "Description": "IoT device management, integration, and connection service."
             }
         ]
     },
