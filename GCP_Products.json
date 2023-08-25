@@ -955,6 +955,14 @@
             {
                 "ProductName": "Google Cloud Backup and DR",
                 "Description": "Managed backup and disaster recovery for application-consistent data protection."
+            },
+            {
+                "ProductName": "NetApp Volumes",
+                "Description": "File storage service that supports NFS, SMB, and multi-protocol environments."
+            },
+            {
+                "ProductName": "Parallelstore",
+                "Description": "High performance, managed parallel file service."
             }
         ]
     },
