@@ -3,16 +3,24 @@
         "Product Section": "AI and Machine Learning",
         "Services": [
             {
-                "ProductName": "Vertex AI",
+                "ProductName": "Vertex AI Platform",
                 "Description": "Unified platform for training, hosting, and managing ML models."
             },
             {
-                "ProductName": "Vertex AI Workbench",
+                "ProductName": "Vertex AI Notebooks",
                 "Description": "A single interface for your data, analytics, and machine learning workflow."
             },
             {
                 "ProductName": "Vertex Explainable AI",
                 "Description": "Tools and frameworks to understand and interpret your machine learning models."
+            },
+            {
+                "ProductName": "Generative AI on Vertex AI",
+                "Description": "Build, tune, and deploy foundation models on Vertex AI."
+            },
+            {
+                "ProductName": "Vertex AI Search and Conversation",
+                "Description": "Generative AI apps for enterprise search and conversational AI."
             },
             {
                 "ProductName": "AutoML",
@@ -405,6 +413,10 @@
                 "Description": "Managed and secure development environments in the cloud."
             },
             {
+                "ProductName": "Duet AI for Google Cloud (Preview",
+                "Description": "AI-powered collaborator across Google Cloud and your IDE."
+            },
+            {
                 "ProductName": "Firebase Crashlytics",
                 "Description": "Prioritize and fix stability issues faster."
             },
@@ -687,6 +699,10 @@
             {
                 "ProductName": "Private Service Connect",
                 "Description": "Secure connection between your VPC and services."
+            },
+            {
+                "ProductName": "Secure Web Proxy",
+                "Description": "Cloud first service that helps you secure egress web traffic."
             },
             {
                 "ProductName": "Service Directory",
