@@ -7,14 +7,6 @@
                 "Description": "Unified platform for training, hosting, and managing ML models."
             },
             {
-                "ProductName": "Vertex AI Notebooks",
-                "Description": "A single interface for your data, analytics, and machine learning workflow."
-            },
-            {
-                "ProductName": "Vertex Explainable AI",
-                "Description": "Tools and frameworks to understand and interpret your machine learning models."
-            },
-            {
                 "ProductName": "Generative AI on Vertex AI",
                 "Description": "Build, tune, and deploy foundation models on Vertex AI."
             },
@@ -63,6 +55,14 @@
                 "Description": "Custom and pre-trained models to detect emotion, text, more."
             },
             {
+                "ProductName": "Vertex AI Notebooks",
+                "Description": "A single interface for your data, analytics, and machine learning workflow."
+            },
+            {
+                "ProductName": "Vertex Explainable AI",
+                "Description": "Tools and frameworks to understand and interpret your machine learning models."
+            },
+            {
                 "ProductName": "AI Infrastructure",
                 "Description": "Options for every business to train deep learning and ML models cost-effectively."
             },
@@ -105,51 +105,15 @@
         ]
     },
     {
-        "Product Section": "API Management",
+        "Product Section": "Business Intelligence",
         "Services": [
             {
-                "ProductName": "Apigee API Management",
-                "Description": "API management, development, and security platform."
+                "ProductName": "Looker",
+                "Description": "Platform for BI, data applications, and embedded analytics."
             },
             {
-                "ProductName": "Apigee Integration",
-                "Description": "API-first integration to connect existing data and applications."
-            },
-            {
-                "ProductName": "Apigee Hybrid",
-                "Description": "Deployment option for managing APIs on-premises or in the cloud."
-            },
-            {
-                "ProductName": "AppSheet Automation",
-                "Description": "Reclaim time and talent with no-code automation."
-            },
-            {
-                "ProductName": "AppSheet",
-                "Description": "Enable everyone in your organization to build and extend applications without coding."
-            },
-            {
-                "ProductName": "Apigee Open Banking APIx",
-                "Description": "Open banking and PSD2-compliant API delivery."
-            },
-            {
-                "ProductName": "Apigee Sense",
-                "Description": "Intelligent behavior detection to protect APIs."
-            },
-            {
-                "ProductName": "HealthAPIx",
-                "Description": "FHIR API-based digital service formation."
-            },
-            {
-                "ProductName": "Cloud Healthcare API",
-                "Description": "Solution to bridge existing care systems and apps on Google Cloud."
-            },
-            {
-                "ProductName": "API Gateway",
-                "Description": "Develop, deploy, secure, and manage APIs with a fully managed gateway."
-            },
-            {
-                "ProductName": "Application Integration",
-                "Description": "Connect your applications visually, without code."
+                "ProductName": "Looker Studio",
+                "Description": "Interactive data suite for dashboarding, reporting, and analytics."
             }
         ]
     },
@@ -181,12 +145,12 @@
                 "Description": "Virtual machines running in Google\u2019s data center."
             },
             {
-                "ProductName": "Migrate to Virtual Machines",
-                "Description": "Server and virtual machine migration to Compute Engine."
+                "ProductName": "Deep Learning VM Image",
+                "Description": "Preconfigured VMs for deep learning applications."
             },
             {
-                "ProductName": "Spot VMs",
-                "Description": "Compute instances for batch jobs and fault-tolerant workloads."
+                "ProductName": "Migrate to Virtual Machines",
+                "Description": "Server and virtual machine migration to Compute Engine."
             },
             {
                 "ProductName": "Recommender",
@@ -201,8 +165,16 @@
                 "Description": "Dedicated hardware for compliance, licensing, and management."
             },
             {
+                "ProductName": "Spot VMs",
+                "Description": "Compute instances for batch jobs and fault-tolerant workloads."
+            },
+            {
                 "ProductName": "SQL Server on Google Cloud",
                 "Description": "Options for running SQL Server virtual machines on Google Cloud."
+            },
+            {
+                "ProductName": "Tau VM",
+                "Description": "Compute Engine virtual machines optimized for scale-out workloads."
             },
             {
                 "ProductName": "VMware Engine",
@@ -222,16 +194,16 @@
                 "Description": "Solution for running build steps in a Docker container."
             },
             {
+                "ProductName": "Cloud Code",
+                "Description": "IDE support to write, run, and debug Kubernetes applications."
+            },
+            {
                 "ProductName": "Cloud Deploy",
                 "Description": "Fully managed continuous delivery to GKE  and Cloud Run."
             },
             {
                 "ProductName": "Cloud Run",
                 "Description": "Fully managed environment for running containerized apps."
-            },
-            {
-                "ProductName": "Container Security",
-                "Description": "Container environment security for each stage of the life cycle."
             },
             {
                 "ProductName": "Deep Learning Containers",
@@ -248,6 +220,10 @@
             {
                 "ProductName": "Kubernetes applications on Google Cloud Marketplace",
                 "Description": "Containerized apps with prebuilt deployment and unified billing."
+            },
+            {
+                "ProductName": "Migrate to Containers",
+                "Description": "Components for migrating VMs into system containers on GKE."
             }
         ]
     },
@@ -307,20 +283,16 @@
                 "Description": "Interactive data suite for dashboarding, reporting, and analytics."
             },
             {
-                "ProductName": "Google Marketing Platform*",
-                "Description": "Marketing platform unifying advertising and analytics."
-            },
-            {
-                "ProductName": "Cloud Life Sciences (beta)",
-                "Description": "Tools for managing, processing, and transforming biomedical data."
-            },
-            {
                 "ProductName": "Earth Engine",
                 "Description": "A powerful geospatial platform for Earth observation data and analysis."
             },
             {
                 "ProductName": "BigLake",
                 "Description": "Storage engine for unifying data warehouses and lakes."
+            },
+            {
+                "ProductName": "Google Marketing Platform*",
+                "Description": "Marketing platform unifying advertising and analytics."
             }
         ]
     },
@@ -356,16 +328,16 @@
                 "Description": "Cloud-native document database for building rich mobile, web, and IoT apps."
             },
             {
-                "ProductName": "Firebase Realtime Database",
-                "Description": "NoSQL database for storing and syncing data in real time."
-            },
-            {
                 "ProductName": "Memorystore",
                 "Description": "In-memory database for managed Redis and Memcached."
             },
             {
                 "ProductName": "Datastream",
                 "Description": "Serverless change data capture and replication service."
+            },
+            {
+                "ProductName": "Firebase Realtime Database*",
+                "Description": "NoSQL database for storing and syncing data in real time."
             }
         ]
     },
@@ -393,6 +365,18 @@
                 "Description": "Fully managed continuous delivery to Google Kubernetes Engine."
             },
             {
+                "ProductName": "Cloud Deployment Manager",
+                "Description": "Service for creating and managing Google Cloud resources."
+            },
+            {
+                "ProductName": "Cloud Functions for Firebase",
+                "Description": "Write and run app logic server-side without needing to set up your own server."
+            },
+            {
+                "ProductName": "Cloud Identity",
+                "Description": "Unified platform for IT admins to manage user devices and apps."
+            },
+            {
                 "ProductName": "Cloud Scheduler",
                 "Description": "Cron job scheduler for task automation and management."
             },
@@ -413,11 +397,15 @@
                 "Description": "Managed and secure development environments in the cloud."
             },
             {
-                "ProductName": "Duet AI for Google Cloud (Preview",
-                "Description": "AI-powered collaborator across Google Cloud and your IDE."
+                "ProductName": "Duet AI in Google Cloud",
+                "Description": "AI-powered collaborator, available across Google Cloud and your IDE."
             },
             {
-                "ProductName": "Firebase Crashlytics",
+                "ProductName": "Firebase Authentication",
+                "Description": "End-to-end user identity solution to your app for user identification, sign-in, and onboarding."
+            },
+            {
+                "ProductName": "Firebase Crashlytics*",
                 "Description": "Prioritize and fix stability issues faster."
             },
             {
@@ -431,6 +419,10 @@
             {
                 "ProductName": "Maven App Engine Plugin",
                 "Description": "Use Maven for your App Engine projects."
+            },
+            {
+                "ProductName": "Skaffold",
+                "Description": "Open source command line tool for Cloud Code, Cloud Build, and Cloud Deploy."
             },
             {
                 "ProductName": "Tekton",
@@ -447,44 +439,15 @@
         ]
     },
     {
-        "Product Section": "Financial Services",
+        "Product Section": "Distributed Cloud",
         "Services": [
             {
-                "ProductName": "AML AI",
-                "Description": "Detect suspicious, potential money laundering activity faster and more precisely with AI."
+                "ProductName": "Google Distributed Cloud Edge",
+                "Description": "Distributed cloud services for edge workloads."
             },
             {
-                "ProductName": "Payment Gateway",
-                "Description": "Process API-based payments with reliability at scale."
-            }
-        ]
-    },
-    {
-        "Product Section": "Healthcare and Life Sciences",
-        "Services": [
-            {
-                "ProductName": "Apigee healthcare APIx",
-                "Description": "FHIR API-based digital service production."
-            },
-            {
-                "ProductName": "Cloud Healthcare API",
-                "Description": "Solution for bridging existing care systems and apps on Google Cloud."
-            },
-            {
-                "ProductName": "Cloud Life Sciences (beta)",
-                "Description": "Tools for managing, processing, and transforming biomedical data."
-            },
-            {
-                "ProductName": "Device Connect for Fitbit",
-                "Description": "Gain a 360-degree patient view with connected Fitbit data on Google Cloud."
-            },
-            {
-                "ProductName": "Healthcare Natural Language AI",
-                "Description": "Real-time insights from unstructured medical text."
-            },
-            {
-                "ProductName": "Medical Imaging Suite",
-                "Description": "Accelerate development of AI for medical imaging by making imaging data accessible, interoperable, and useful."
+                "ProductName": "Google Distributed Cloud Hosted",
+                "Description": "Distributed cloud for air-gapped workloads."
             }
         ]
     },
@@ -522,17 +485,94 @@
         ]
     },
     {
-        "Product Section": "Internet of Things (IoT)",
+        "Product Section": "Industry Specific",
         "Services": [
             {
-                "ProductName": "Edge TPU",
-                "Description": "ASIC designed to run ML inference and AI at the edge."
+                "ProductName": "Anti Money Laundering AI",
+                "Description": "Detect suspicious, potential money laundering activity with AI."
+            },
+            {
+                "ProductName": "Cloud Healthcare API",
+                "Description": "Solution for bridging existing care systems and apps on Google Cloud."
+            },
+            {
+                "ProductName": "Device Connect for Fitbit",
+                "Description": "Gain a 360-degree patient view with connected Fitbit data on Google Cloud."
+            },
+            {
+                "ProductName": "Telecom Network Automation",
+                "Description": "Ready to use cloud-native automation for telecom networks."
+            },
+            {
+                "ProductName": "Telecom Data Fabric",
+                "Description": "Telecom data management and analytics with an automated approach."
+            },
+            {
+                "ProductName": "Telecom Subscriber Insights",
+                "Description": "Ingests data to improve subscriber acquisition and retention."
+            },
+            {
+                "ProductName": "Spectrum Access System (SAS)",
+                "Description": "Controls fundamental access to the Citizens Broadband Radio Service (CBRS)."
+            },
+            {
+                "ProductName": "Payment Gateway",
+                "Description": "Process API-based payments with reliability at Google scale. (currently only available in India)"
+            }
+        ]
+    },
+    {
+        "Product Section": "Integration Services",
+        "Services": [
+            {
+                "ProductName": "Application Integration",
+                "Description": "Connect to 3rd party apps and enable data consistency without code."
+            },
+            {
+                "ProductName": "Workflows",
+                "Description": "Workflow orchestration for serverless products and API services."
+            },
+            {
+                "ProductName": "Apigee API Management",
+                "Description": "Manage the full life cycle of APIs anywhere with visibility and control."
+            },
+            {
+                "ProductName": "Cloud Tasks",
+                "Description": "Task management service for asynchronous task execution."
+            },
+            {
+                "ProductName": "Cloud Scheduler",
+                "Description": "Cron job scheduler for task automation and management."
+            },
+            {
+                "ProductName": "Dataproc",
+                "Description": "Service for running Apache Spark and Apache Hadoop clusters."
+            },
+            {
+                "ProductName": "Cloud Data Fusion",
+                "Description": "Data integration for building and managing data pipelines."
+            },
+            {
+                "ProductName": "Cloud Composer",
+                "Description": "Workflow orchestration service built on Apache Airflow."
+            },
+            {
+                "ProductName": "Pub/Sub",
+                "Description": "Messaging service for event ingestion and delivery."
+            },
+            {
+                "ProductName": "Eventarc",
+                "Description": "Build an event-driven architecture that can connect any service."
             }
         ]
     },
     {
         "Product Section": "Management Tools",
         "Services": [
+            {
+                "ProductName": "Active Assist",
+                "Description": "Tools for easily managing performance, security, and cost."
+            },
             {
                 "ProductName": "Anthos Config Management",
                 "Description": "Automate policy and security for your deployments."
@@ -552,6 +592,14 @@
             {
                 "ProductName": "Cloud Console",
                 "Description": "Web-based interface for managing and monitoring cloud apps."
+            },
+            {
+                "ProductName": "Cloud Endpoints",
+                "Description": "Deployment and development management for APIs on Google Cloud."
+            },
+            {
+                "ProductName": "Cloud IAM",
+                "Description": "Permissions management system for Google Cloud resources."
             },
             {
                 "ProductName": "Cloud Mobile App",
@@ -575,7 +623,15 @@
             },
             {
                 "ProductName": "Deployment Manager",
-                "Description": "Google Cloud Deployment Manager is an infrastructure deployment service that automates the creation and management of Google Cloud resources."
+                "Description": "Infrastructure deployment service that automates the creation and management of Google Cloud resources."
+            },
+            {
+                "ProductName": "Managed Service for Prometheus",
+                "Description": "Fully managed amonitoring service, built on the same globally scalable data store used by Google Cloud."
+            },
+            {
+                "ProductName": "Personalized Service Health",
+                "Description": "Gain visibility into disruptive events impacting Google Cloud products."
             },
             {
                 "ProductName": "Service Catalog",
@@ -584,16 +640,29 @@
             {
                 "ProductName": "Terraform on Google Cloud",
                 "Description": "Open source tool to provision Google Cloud resources with declarative configuration files."
-            },
-            {
-                "ProductName": "Personalized Service Health",
-                "Description": "Gain visibility into disruptive service events impacting Google Cloud products."
             }
         ]
     },
     {
-        "Product Section": "Media and Gaming",
+        "Product Section": "Maps and Geospatial",
         "Services": [
+            {
+                "ProductName": "Earth Engine",
+                "Description": "Geospatial platform for Earth observation data and analysis."
+            },
+            {
+                "ProductName": "Google Maps Platform",
+                "Description": "Create immersive location experiences and improve business operations."
+            }
+        ]
+    },
+    {
+        "Product Section": "Media Services",
+        "Services": [
+            {
+                "ProductName": "Cloud CDN",
+                "Description": "Content delivery network for serving web and video content."
+            },
             {
                 "ProductName": "Live Stream API",
                 "Description": "Live encoder that transforms live video content for use across a variety of user devices."
@@ -628,6 +697,14 @@
                 "Description": "Reference templates for Deployment Manager and Terraform."
             },
             {
+                "ProductName": "Database Migration Service",
+                "Description": "Serverless, minimal downtime migrations to Cloud SQL."
+            },
+            {
+                "ProductName": "Migration Center",
+                "Description": "Unified platform for migrating and modernizing with Google Cloud."
+            },
+            {
                 "ProductName": "Migrate to Containers",
                 "Description": "Components for migrating VMs into system containers on GKE."
             },
@@ -636,12 +713,29 @@
                 "Description": "Components for migrating VMs and physical servers to Compute Engine."
             },
             {
-                "ProductName": "Migration Center",
-                "Description": "Unified platform for migrating and modernizing with Google Cloud."
+                "ProductName": "Rapid Assessment & Migration Program (RAMP)",
+                "Description": "End-to-end migration program to simplify your path to the cloud."
+            },
+            {
+                "ProductName": "Storage Transfer Service",
+                "Description": "Data transfers from online and on-premises sources to Cloud Storage."
             },
             {
                 "ProductName": "Transfer Appliance",
                 "Description": "Storage server for moving large volumes of data to Google Cloud."
+            },
+            {
+                "ProductName": "VMware Engine",
+                "Description": "Migrate and run your VMware workloads natively on Google Cloud."
+            }
+        ]
+    },
+    {
+        "Product Section": "Mixed Reality",
+        "Services": [
+            {
+                "ProductName": "Immersive Stream for XR",
+                "Description": "Hosts, renders, and streams 3D and XR experiences."
             }
         ]
     },
@@ -657,12 +751,20 @@
                 "Description": "Content delivery network for serving web and video content."
             },
             {
+                "ProductName": "Cloud Connectivity",
+                "Description": "Connectivity options for VPN, peering, and enterprise needs."
+            },
+            {
                 "ProductName": "Cloud Domains",
                 "Description": "Easy domain name registration and management."
             },
             {
                 "ProductName": "Cloud DNS",
                 "Description": "Domain name system for reliable and low-latency name lookups."
+            },
+            {
+                "ProductName": "Cloud Firewall",
+                "Description": "Global and flexible firewalls to protect your cloud resources."
             },
             {
                 "ProductName": "Cloud IDS",
@@ -675,14 +777,6 @@
             {
                 "ProductName": "Cloud NAT",
                 "Description": "NAT service for giving private instances internet access."
-            },
-            {
-                "ProductName": "Hybrid Connectivity",
-                "Description": "Connectivity options for VPN, peering, and enterprise needs."
-            },
-            {
-                "ProductName": "Media CDN",
-                "Description": "Leverage Google\u2019s decade of experience powering world-class streaming media."
             },
             {
                 "ProductName": "Network Connectivity Center",
@@ -701,16 +795,8 @@
                 "Description": "Secure connection between your VPC and services."
             },
             {
-                "ProductName": "Secure Web Proxy",
-                "Description": "Cloud first service that helps you secure egress web traffic."
-            },
-            {
                 "ProductName": "Service Directory",
                 "Description": "Platform for discovering, publishing, and connecting services."
-            },
-            {
-                "ProductName": "Spectrum Access System (SAS)",
-                "Description": "Controls fundamental access to the Citizens Broadband Radio Service (CBRS)."
             },
             {
                 "ProductName": "Traffic Director",
@@ -719,12 +805,20 @@
             {
                 "ProductName": "Virtual Private Cloud (VPC)",
                 "Description": "Virtual network for Google Cloud resources and cloud-based services."
+            },
+            {
+                "ProductName": "VPC Service Controls",
+                "Description": "Protect sensitive data in Google Cloud services using security perimeters."
             }
         ]
     },
     {
         "Product Section": "Operations",
         "Services": [
+            {
+                "ProductName": "Cloud Debugger",
+                "Description": "Real-time application state inspection and in  -production debugging."
+            },
             {
                 "ProductName": "Cloud Logging",
                 "Description": "Google Cloud audit, platform, and application logs management."
@@ -742,8 +836,41 @@
                 "Description": "Tracing system collecting latency data from applications."
             },
             {
-                "ProductName": "Cloud Error Reporting",
+                "ProductName": "Error Reporting",
                 "Description": "Real time exception monitoring and alerting."
+            }
+        ]
+    },
+    {
+        "Product Section": "Productivity and Collaboration",
+        "Services": [
+            {
+                "ProductName": "AppSheet",
+                "Description": "No-code development platform to build and extend applications."
+            },
+            {
+                "ProductName": "Appsheet Automation",
+                "Description": "Build automations and applications on a unified platform."
+            },
+            {
+                "ProductName": "Google Workspace",
+                "Description": "Collaboration and productivity tools for individuals and organizations."
+            },
+            {
+                "ProductName": "Google Workspace Essentials",
+                "Description": "Secure video meetings and modern collaboration for teams."
+            },
+            {
+                "ProductName": "Duet AI for Workspace",
+                "Description": "Embeds generative AI across Workspace apps."
+            },
+            {
+                "ProductName": "Cloud Identity",
+                "Description": "Unified platform for IT admins to manage user devices and apps."
+            },
+            {
+                "ProductName": "Chrome Enterprise",
+                "Description": "Chrome OS, Chrome Browser, and Chrome devices built for business."
             }
         ]
     },
@@ -917,8 +1044,12 @@
         ]
     },
     {
-        "Product Section": "Serverless Computing",
+        "Product Section": "Serverless",
         "Services": [
+            {
+                "ProductName": "API Gateway",
+                "Description": "Develop, deploy, secure, and manage APIs with a full managed gateway."
+            },
             {
                 "ProductName": "App Engine",
                 "Description": "Serverless application platform for apps and back ends."
@@ -941,12 +1072,12 @@
         "Product Section": "Storage",
         "Services": [
             {
-                "ProductName": "Storage Transfer Service",
-                "Description": "Tools and services for transferring your data to Google Cloud."
-            },
-            {
                 "ProductName": "Cloud Storage",
                 "Description": "Object storage that\u2019s secure, durable, and scalable."
+            },
+            {
+                "ProductName": "Storage Transfer Service",
+                "Description": "Tools and services for transferring your data to Google Cloud."
             },
             {
                 "ProductName": "Cloud Storage for Firebase",
@@ -955,10 +1086,6 @@
             {
                 "ProductName": "Filestore",
                 "Description": "File storage that is highly scalable and secure."
-            },
-            {
-                "ProductName": "Google  Workspace Essentials",
-                "Description": "Cloud-based file sharing, content collaboration, and storage."
             },
             {
                 "ProductName": "Local SSD",
