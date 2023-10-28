@@ -397,7 +397,7 @@
                 "Description": "Managed and secure development environments in the cloud."
             },
             {
-                "ProductName": "Duet AI in Google Cloud",
+                "ProductName": "Duet AI in Google Cloud (Preview)",
                 "Description": "AI-powered collaborator, available across Google Cloud and your IDE."
             },
             {
@@ -415,6 +415,10 @@
             {
                 "ProductName": "Gradle App Engine Plugin",
                 "Description": "Use Gradle for your App Engine projects."
+            },
+            {
+                "ProductName": "Infrastructure Manager",
+                "Description": "Automate deployment & management of Google Cloud infrastructure resources using Terraform"
             },
             {
                 "ProductName": "Maven App Engine Plugin",
