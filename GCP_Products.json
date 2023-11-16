@@ -418,7 +418,7 @@
             },
             {
                 "ProductName": "Infrastructure Manager",
-                "Description": "Automate deployment & management of Google Cloud infrastructure resources using Terraform"
+                "Description": "Automate deployment and management of Google Cloud infrastructure resources using Terraform"
             },
             {
                 "ProductName": "Maven App Engine Plugin",
@@ -469,10 +469,6 @@
             {
                 "ProductName": "Cloud Build",
                 "Description": "Service for executing builds on Google Cloud infrastructure."
-            },
-            {
-                "ProductName": "Cloud Run for Anthos",
-                "Description": "Google-managed and supported Knative developer platform."
             },
             {
                 "ProductName": "Looker",
