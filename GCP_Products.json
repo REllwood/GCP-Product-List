@@ -1048,7 +1048,7 @@
         "Services": [
             {
                 "ProductName": "API Gateway",
-                "Description": "Develop, deploy, secure, and manage APIs with a full managed gateway."
+                "Description": "Develop, deploy, secure, and manage APIs with a fully managed gateway."
             },
             {
                 "ProductName": "App Engine",
