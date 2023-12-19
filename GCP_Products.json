@@ -578,7 +578,7 @@
                 "Description": "Automate policy and security for your deployments."
             },
             {
-                "ProductName": "Anthos Service Mesh",
+                "ProductName": "Service Mesh",
                 "Description": "Managed service mesh for complex microservices architectures."
             },
             {
@@ -627,7 +627,7 @@
             },
             {
                 "ProductName": "Managed Service for Prometheus",
-                "Description": "Fully managed amonitoring service, built on the same globally scalable data store used by Google Cloud."
+                "Description": "Fully managed monitoring service, built on the same globally scalable data store used by Google Cloud."
             },
             {
                 "ProductName": "Personalized Service Health",
