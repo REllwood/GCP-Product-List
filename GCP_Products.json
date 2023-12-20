@@ -849,7 +849,7 @@
                 "Description": "No-code development platform to build and extend applications."
             },
             {
-                "ProductName": "Appsheet Automation",
+                "ProductName": "AppSheet Automation",
                 "Description": "Build automations and applications on a unified platform."
             },
             {
@@ -861,8 +861,8 @@
                 "Description": "Secure video meetings and modern collaboration for teams."
             },
             {
-                "ProductName": "Duet AI for Workspace",
-                "Description": "Embeds generative AI across Workspace apps."
+                "ProductName": "Duet AI for Google Workspace",
+                "Description": "Embeds generative AI across Google Workspace apps."
             },
             {
                 "ProductName": "Cloud Identity",
@@ -870,7 +870,7 @@
             },
             {
                 "ProductName": "Chrome Enterprise",
-                "Description": "Chrome OS, Chrome Browser, and Chrome devices built for business."
+                "Description": "ChromeOS, Chrome browser, and Chrome devices built for business."
             }
         ]
     },
