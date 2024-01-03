@@ -799,10 +799,6 @@
                 "Description": "Platform for discovering, publishing, and connecting services."
             },
             {
-                "ProductName": "Traffic Director",
-                "Description": "Traffic control plane and management for open service mesh."
-            },
-            {
                 "ProductName": "Virtual Private Cloud (VPC)",
                 "Description": "Virtual network for Google Cloud resources and cloud-based services."
             },
