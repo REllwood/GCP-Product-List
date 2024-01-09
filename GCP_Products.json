@@ -598,10 +598,6 @@
                 "Description": "Deployment and development management for APIs on Google Cloud."
             },
             {
-                "ProductName": "Cloud IAM",
-                "Description": "Permissions management system for Google Cloud resources."
-            },
-            {
                 "ProductName": "Cloud Mobile App",
                 "Description": "App to manage Google Cloud services from your mobile device."
             },
@@ -624,6 +620,10 @@
             {
                 "ProductName": "Deployment Manager",
                 "Description": "Infrastructure deployment service that automates the creation and management of Google Cloud resources."
+            },
+            {
+                "ProductName": "Identity and Access Management (IAM)",
+                "Description": "Permissions management system for Google Cloud resources."
             },
             {
                 "ProductName": "Managed Service for Prometheus",
