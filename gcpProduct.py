@@ -46,6 +46,12 @@ def google_product_scraper():
 
 scraped_data = google_product_scraper()
 
-json_file_path = "GCP_Products.json"
-with open(json_file_path, "w") as json_file:
-    json.dump(scraped_data, json_file, indent=4)
+#if scraped data array is not empty then write to json file, else break
+if not scraped_data:
+    print("No data to write to file")
+    exit()
+else:
+    print("Data written to file")
+    json_file_path = "GCP_Products.json"
+    with open(json_file_path, "w") as json_file:
+        json.dump(scraped_data, json_file, indent=4)
