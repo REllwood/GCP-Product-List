@@ -994,10 +994,6 @@
                 "Description": "Know your security can be effective against today's adversaries."
             },
             {
-                "ProductName": "Mandiant Ransomware Defense Validation",
-                "Description": "Understand your ability to withstand a ransomware attack."
-            },
-            {
                 "ProductName": "Virus Total",
                 "Description": "Unique visibility into threats."
             },
@@ -1010,16 +1006,8 @@
                 "Description": "Enable modern, fast, and effective response by combining playbook automation, case management, and integrated threat intelligence."
             },
             {
-                "ProductName": "Mandiant Automated Defense",
-                "Description": "100% of tracked security events investigated at machine speed, scale, and consistency."
-            },
-            {
                 "ProductName": "Mandiant Managed Detection and Response",
                 "Description": "Help find and eliminate threats with confidence 24/7."
-            },
-            {
-                "ProductName": "Mandiant Breach Analytics for Chronicle",
-                "Description": "Know about a potential breach when we know it, in real time."
             },
             {
                 "ProductName": "Mandiant Incident Response Services",
@@ -1028,10 +1016,6 @@
             {
                 "ProductName": "Mandiant Consulting Services",
                 "Description": "Mitigate cyber threats and reduce business risk with the help of frontline experts."
-            },
-            {
-                "ProductName": "Mandiant Expertise on Demand",
-                "Description": "Access to cyber security expertise when you need it."
             },
             {
                 "ProductName": "Mandiant Academy",
