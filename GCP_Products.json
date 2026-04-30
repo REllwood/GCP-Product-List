@@ -111,10 +111,6 @@
                 "Description": "A single interface for your data, analytics, and machine learning workflow."
             },
             {
-                "ProductName": "Vertex AI Studio",
-                "Description": "Build, tune, and deploy foundation models on Vertex AI."
-            },
-            {
                 "ProductName": "Vertex AI Vector Search",
                 "Description": "Search from billions of semantically similar or semantically related items."
             },
