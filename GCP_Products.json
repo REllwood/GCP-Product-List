@@ -39,11 +39,7 @@
                 "Description": "Omnichannel contact center service that offers security and privacy, along with unified data."
             },
             {
-                "ProductName": "Conversational Agents",
-                "Description": "Conversation applications and systems development suite for virtual agents."
-            },
-            {
-                "ProductName": "Conversational Insights",
+                "ProductName": "Customer Experience Insights",
                 "Description": "Contact center interaction data to answer business questions or support decision making."
             },
             {
@@ -67,8 +63,20 @@
                 "Description": "AI-assisted application development and coding."
             },
             {
-                "ProductName": "Gemini Enterprise",
+                "ProductName": "Gemini Enterprise Agent Platform",
+                "Description": "Unified platform for ML models, generative AI, and agent building."
+            },
+            {
+                "ProductName": "Gemini Enterprise Agent Platform Notebooks",
+                "Description": "A single interface for your data, analytics, and machine learning workflow."
+            },
+            {
+                "ProductName": "Gemini Enterprise app",
                 "Description": "Discover, create, share, and run AI agents across your organization—all in one secure environment."
+            },
+            {
+                "ProductName": "Gemini Enterprise for Customer Experience",
+                "Description": "Conversation applications and systems development suite for virtual agents."
             },
             {
                 "ProductName": "Genkit",
@@ -103,20 +111,12 @@
                 "Description": "Language detection, translation, and glossary support."
             },
             {
-                "ProductName": "Vertex AI Agent Builder",
-                "Description": "Create custom AI agents grounded in your data."
-            },
-            {
-                "ProductName": "Vertex AI Notebooks",
-                "Description": "A single interface for your data, analytics, and machine learning workflow."
-            },
-            {
-                "ProductName": "Vertex AI Vector Search",
+                "ProductName": "Vector Search on Gemini Enterprise Agent Platform",
                 "Description": "Search from billions of semantically similar or semantically related items."
             },
             {
-                "ProductName": "Vertex AI platform",
-                "Description": "Unified platform for ML models and generative AI."
+                "ProductName": "Vertex AI Agent Builder",
+                "Description": "Create custom AI agents grounded in your data."
             },
             {
                 "ProductName": "Vertex Explainable AI",
@@ -142,10 +142,6 @@
             {
                 "ProductName": "Bare Metal Solution",
                 "Description": "Fully managed infrastructure to support your Oracle workloads."
-            },
-            {
-                "ProductName": "BigLake",
-                "Description": "Storage engine for unifying data warehouses and lakes."
             },
             {
                 "ProductName": "BigQuery",
@@ -176,6 +172,10 @@
                 "Description": "Virtual machines running in Google's data center."
             },
             {
+                "ProductName": "Data Studio",
+                "Description": "Interactive data suite for dashboarding, reporting, and analytics"
+            },
+            {
                 "ProductName": "Database Migration Service",
                 "Description": "Serverless, minimal downtime migrations to the cloud."
             },
@@ -186,14 +186,6 @@
             {
                 "ProductName": "Dataform",
                 "Description": "Build, version control, and deploy SQL workflows in BigQuery."
-            },
-            {
-                "ProductName": "Dataplex",
-                "Description": "Intelligent data fabric for unified data management across distributed data silos."
-            },
-            {
-                "ProductName": "Dataproc",
-                "Description": "Service for running Apache Spark and Apache Hadoop clusters."
             },
             {
                 "ProductName": "Datastream",
@@ -216,16 +208,28 @@
                 "Description": "Cloud-native document database for building rich mobile, web, and IoT apps. Now with MongoDB compatibility."
             },
             {
+                "ProductName": "Gemini Enterprise Agent Platform",
+                "Description": "Unified platform for ML models, generative AI, and agent building."
+            },
+            {
                 "ProductName": "Google Marketing Platform",
                 "Description": "Marketing platform unifying advertising and analytics."
+            },
+            {
+                "ProductName": "Knowledge Catalog",
+                "Description": "Always-on catalog for AI that provides universal context for agents."
+            },
+            {
+                "ProductName": "Lakehouse for Apache Iceberg",
+                "Description": "Storage engine for unifying data warehouses and lakes."
             },
             {
                 "ProductName": "Looker",
                 "Description": "Platform for BI, data applications, and embedded analytics."
             },
             {
-                "ProductName": "Looker Studio",
-                "Description": "Interactive data suite for dashboarding, reporting, and analytics"
+                "ProductName": "Managed Service for Apache Spark",
+                "Description": "Zero-ops serverless or managed clusters, accelerated by Lightning Engine."
             },
             {
                 "ProductName": "Memorystore",
@@ -250,10 +254,6 @@
             {
                 "ProductName": "Telecom Data Fabric",
                 "Description": "Telecom data management and analytics with an automated approach."
-            },
-            {
-                "ProductName": "Vertex AI platform",
-                "Description": "Unified platform for ML models and generative AI."
             }
         ]
     },
@@ -293,12 +293,12 @@
                 "Description": "Automated deployment and infrastructure for modern, full-stack web applications from GitHub."
             },
             {
-                "ProductName": "Google Click to Deploy",
-                "Description": "Web publishing platform for building multiple blogs and websites"
+                "ProductName": "Gemini Enterprise Agent Platform",
+                "Description": "Unified platform for ML models, generative AI, and agent building."
             },
             {
-                "ProductName": "Vertex AI platform",
-                "Description": "Unified platform for ML models and generative AI."
+                "ProductName": "Google Click to Deploy",
+                "Description": "Web publishing platform for building multiple blogs and websites"
             }
         ]
     },
@@ -378,6 +378,10 @@
                 "Description": "Encrypt data in use with Confidential VMs."
             },
             {
+                "ProductName": "Gemini Enterprise Agent Platform",
+                "Description": "Unified platform for ML models, generative AI, and agent building."
+            },
+            {
                 "ProductName": "Google Security Operations",
                 "Description": "Cloud-native threat detection, investigation, and response (TDIR) platform."
             },
@@ -454,10 +458,6 @@
                 "Description": "Protect sensitive data in Google Cloud services using security perimeters."
             },
             {
-                "ProductName": "Vertex AI platform",
-                "Description": "Unified platform for ML models and generative AI."
-            },
-            {
                 "ProductName": "Virus Total",
                 "Description": "Unique visibility into threats."
             },
@@ -527,16 +527,16 @@
                 "Description": "Build an event-driven architecture that can connect any service."
             },
             {
+                "ProductName": "Gemini Enterprise Agent Platform",
+                "Description": "Unified platform for ML models, generative AI, and agent building."
+            },
+            {
                 "ProductName": "Live Stream API",
                 "Description": "Live encoder that transforms live video content for use across a variety of user devices."
             },
             {
                 "ProductName": "Pub/Sub",
                 "Description": "Messaging service for event ingestion and delivery."
-            },
-            {
-                "ProductName": "Vertex AI platform",
-                "Description": "Unified platform for ML models and generative AI."
             },
             {
                 "ProductName": "Workflows",
@@ -584,6 +584,10 @@
                 "Description": "Gain a 360-degree patient view with connected Fitbit data on Google Cloud."
             },
             {
+                "ProductName": "Gemini Enterprise Agent Platform",
+                "Description": "Unified platform for ML models, generative AI, and agent building."
+            },
+            {
                 "ProductName": "Google Cloud Healthcare Data Engine",
                 "Description": "Solution for bridging existing care systems and apps on Google Cloud."
             },
@@ -614,10 +618,6 @@
             {
                 "ProductName": "Telecom Subscriber Insights",
                 "Description": "Ingests data to improve subscriber acquisition and retention."
-            },
-            {
-                "ProductName": "Vertex AI platform",
-                "Description": "Unified platform for ML models and generative AI."
             },
             {
                 "ProductName": "Vision AI",
@@ -653,16 +653,16 @@
                 "Description": "Virtual machines running in Google's data center."
             },
             {
+                "ProductName": "Gemini Enterprise Agent Platform",
+                "Description": "Unified platform for ML models, generative AI, and agent building."
+            },
+            {
                 "ProductName": "Google Workspace",
                 "Description": "Gmail, Chat, Calendar, Drive, Docs, Sheets, Meet and more—into a single integrated workspace."
             },
             {
                 "ProductName": "Google Workspace Essentials",
                 "Description": "Secure video meetings and modern collaboration for teams."
-            },
-            {
-                "ProductName": "Vertex AI platform",
-                "Description": "Unified platform for ML models and generative AI."
             }
         ]
     },
