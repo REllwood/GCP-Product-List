@@ -7,10 +7,6 @@
                 "Description": "AI-powered conversation assistance and recommended responses for human agents."
             },
             {
-                "ProductName": "AutoML",
-                "Description": "Custom machine learning model training and development."
-            },
-            {
                 "ProductName": "BigQuery",
                 "Description": "Data warehouse for business agility and insights."
             },
@@ -113,14 +109,6 @@
             {
                 "ProductName": "Vector Search on Gemini Enterprise Agent Platform",
                 "Description": "Search from billions of semantically similar or semantically related items."
-            },
-            {
-                "ProductName": "Vertex AI Agent Builder",
-                "Description": "Create custom AI agents grounded in your data."
-            },
-            {
-                "ProductName": "Vertex Explainable AI",
-                "Description": "Tools and frameworks to understand and interpret your machine learning models."
             },
             {
                 "ProductName": "Video AI",
